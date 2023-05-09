@@ -156,6 +156,10 @@ body {
     padding-top: 79px;
 }
 
+.main {
+    max-height: 592px;
+}
+
 .main__section {
     display: flex;
     justify-content: space-between;
@@ -341,7 +345,7 @@ body {
     padding-bottom: 33px;
 }
 
-.footer__title-rights-block {
+.footer__title-rights-link {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -364,7 +368,7 @@ body {
     display: block;
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
 
     .active {
         display: none;
@@ -519,7 +523,7 @@ body {
         justify-content: flex-start;
     }
 
-    .footer__title-rights-block {
+    .footer__title-rights-link {
         text-align: left;
         padding-bottom: 60px;
     }
